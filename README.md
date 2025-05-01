@@ -33,3 +33,19 @@ base64
 pyfiglet
 
 run Cosmo.C2.py to run the framework
+
+
+⚠️ Disclaimer
+You must agree to the following terms before using this tool:
+
+You will not use this tool for any unauthorized or illegal activities.
+
+You will only use this tool for ethical penetration testing with proper authorization.
+
+The creator is not responsible for any damage, loss, or legal consequences resulting from misuse.
+
+You will not use this tool to harm, compromise, or gain unauthorized access to any systems or networks.
+
+You agree to comply with all applicable laws, regulations, and ethical guidelines for cybersecurity testing.
+
+By using this tool, you acknowledge that you understand and agree to these terms.
