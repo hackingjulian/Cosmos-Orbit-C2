@@ -237,7 +237,7 @@ def handle_post():
             platformList.append(entry)
             print("\033[92m" + decoded_data + "\033[0m")
 
-        elif 'New Unix Client on ID:' in decoded_data:            
+        elif 'New unix client on ID:' in decoded_data:            
             stripedId = (''.join(i for i in decoded_data if i.isdigit()))
 
 
@@ -472,6 +472,10 @@ def main(platform_type=None):
             time.sleep(0.5)
             shared["text"] = "$FALSE"
             shared["num"] = ""
+
+if __name__ == "__main__":
+    main()
+
 
 if __name__ == "__main__":
     main()
