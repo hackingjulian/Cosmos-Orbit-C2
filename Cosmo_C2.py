@@ -157,7 +157,6 @@ if 'win' in type:
     time.sleep(1)
     generateHost = get_win_payload.replace("127.0.0.1", posthost)
     generatePort = generateHost.replace("4444", str(postport))
-    print(generatePort)
     win_encode = base64.b64encode(generatePort.encode('utf-16le')).decode()
     print("\033[94m" + win_encode + "\033[0m")
 
