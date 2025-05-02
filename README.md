@@ -5,6 +5,7 @@
 Cosmos Orbit is a cross-platform Command & Control (C2) toolkit designed for Red Team operations. It utilizes covert web requests to establish beacon-style reverse shells, enabling stealthy post-exploitation activities across multiple operating systems.
 
 ![Example](Diagram.png)
+![Example](Demo.png)
 
 🚀 Features
 Multi-Client Support: Seamlessly manage numerous clients across different operating systems with real-time session interaction.
